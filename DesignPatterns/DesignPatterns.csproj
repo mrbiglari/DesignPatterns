@@ -57,10 +57,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\builder.cs" />
+    <Compile Include="Builder\Car.cs" />
+    <Compile Include="Builder\CarBuilder.cs" />
+    <Compile Include="Builder\CarBuilderArgs.cs" />
+    <Compile Include="Builder\BuilderProgram.cs" />
+    <Compile Include="Builder\Table.cs" />
+    <Compile Include="Builder\TableBuilder.cs" />
     <Compile Include="Commnad\ComplexCommand.cs" />
     <Compile Include="Commnad\ICommand.cs" />
     <Compile Include="Commnad\Invoker.cs" />
     <Compile Include="Commnad\CommandProgram.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Singleton\SingletonProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Commnad\Receiver.cs" />

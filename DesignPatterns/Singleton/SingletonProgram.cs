@@ -2,7 +2,7 @@
 {
     class SingletonProgram
     {
-        static void AMain(string[] args)
+        public static void MainMethod(string[] args)
         {
             var singletonA = Singleton.GetSingleton();
 

@@ -7,7 +7,7 @@ namespace DesignPatterns
 {
     class CommandProgram
     {
-        public static void Main(string[] args)
+        public static void MainMethod(string[] args)
         {
             // The client code can parameterize an invoker with any commands.
             Invoker invoker = new Invoker();
