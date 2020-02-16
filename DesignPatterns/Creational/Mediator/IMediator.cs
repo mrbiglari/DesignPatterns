@@ -8,6 +8,11 @@ namespace DesignPatterns.Creational.Mediator
 
     public interface IMediator
     {
+        /// <summary>
+        /// This method is intended to mediate between different components in a concrete implementation of a mediator
+        /// </summary>
+        /// <param name="component"></param>
+        /// <param name="eventId"></param>
         void Notify(Component component, Events eventId);
     }
     public class Dialog : IMediator
@@ -25,6 +30,8 @@ namespace DesignPatterns.Creational.Mediator
             EmailTextBox = new TextBox(this);
             PasswordTextBox = new TextBox(this);
         }
+
+
         public void Notify(Component component, Events eventId)
         {
             var isTextBox = (component == EmailTextBox || component == PasswordTextBox);
