@@ -63,7 +63,18 @@ namespace DesignPatterns
     {
         public static void MainMethod(string[] args)
         {
-            builder<Car> carBuilder = new CarBuilder(new CarBuilderArgs());
+
+            ICarBuilder sportsCarBuilder1 = new SportsCarBuilder(new CarBuilderArgs());
+
+            sportsCarBuilder1.Build();           
+            var sportsCar1 = sportsCarBuilder1.GetProduct();
+
+            builder<Car> sportsCarBuilder2 = new SportsCarBuilder(new CarBuilderArgs());
+
+            sportsCarBuilder2.Build();
+            var sportsCar2 = sportsCarBuilder1.GetProduct();
+
+            builder<Car> carBuilder = new TruckBuilder(new CarBuilderArgs());
 
             carBuilder.Build();
 

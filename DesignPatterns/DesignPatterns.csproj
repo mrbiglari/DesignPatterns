@@ -62,8 +62,12 @@
     <Compile Include="Builder\CarBuilder.cs" />
     <Compile Include="Builder\CarBuilderArgs.cs" />
     <Compile Include="Builder\BuilderProgram.cs" />
+    <Compile Include="Builder\Chassis.cs" />
+    <Compile Include="Builder\Engine.cs" />
+    <Compile Include="Builder\ICarBuilder.cs" />
     <Compile Include="Builder\Table.cs" />
     <Compile Include="Builder\TableBuilder.cs" />
+    <Compile Include="Builder\Truck.cs" />
     <Compile Include="Commnad\ComplexCommand.cs" />
     <Compile Include="Commnad\ICommand.cs" />
     <Compile Include="Commnad\Invoker.cs" />

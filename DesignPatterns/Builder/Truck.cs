@@ -1,13 +1,13 @@
 ﻿namespace DesignPatterns
 {
-    public class SportsCarBuilder : ICarBuilder
+    public class TruckBuilder : ICarBuilder
     {
         public Car Product { get; set; }
         readonly CarBuilderArgs args;
 
 
         public Car product;
-        public SportsCarBuilder(CarBuilderArgs args)
+        public TruckBuilder(CarBuilderArgs args)
         {
             this.args = args;
         }
@@ -32,12 +32,12 @@
 
         public void BuildEngine()
         {
-            product.Engine = new Engine();       
+            product.Engine = new Engine();
         }
 
         public void BuildWheels()
         {
-            product.NumberOfWheels = 4;
+            product.NumberOfWheels = 8;
         }
     }
 }
