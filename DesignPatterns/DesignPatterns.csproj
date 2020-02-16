@@ -57,27 +57,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Builder\builder.cs" />
-    <Compile Include="Builder\Car.cs" />
-    <Compile Include="Builder\CarBuilder.cs" />
-    <Compile Include="Builder\CarBuilderArgs.cs" />
-    <Compile Include="Builder\BuilderProgram.cs" />
-    <Compile Include="Builder\Chassis.cs" />
-    <Compile Include="Builder\Engine.cs" />
-    <Compile Include="Builder\ICarBuilder.cs" />
-    <Compile Include="Builder\Table.cs" />
-    <Compile Include="Builder\TableBuilder.cs" />
-    <Compile Include="Builder\Truck.cs" />
-    <Compile Include="Commnad\ComplexCommand.cs" />
-    <Compile Include="Commnad\ICommand.cs" />
-    <Compile Include="Commnad\Invoker.cs" />
-    <Compile Include="Commnad\CommandProgram.cs" />
+    <Compile Include="Creational\Builder\builder.cs" />
+    <Compile Include="Creational\Builder\Car.cs" />
+    <Compile Include="Creational\Builder\CarBuilder.cs" />
+    <Compile Include="Creational\Builder\CarBuilderArgs.cs" />
+    <Compile Include="Creational\Builder\BuilderProgram.cs" />
+    <Compile Include="Creational\Builder\Chassis.cs" />
+    <Compile Include="Creational\Builder\Engine.cs" />
+    <Compile Include="Creational\Builder\ICarBuilder.cs" />
+    <Compile Include="Creational\Builder\Table.cs" />
+    <Compile Include="Creational\Builder\TableBuilder.cs" />
+    <Compile Include="Creational\Builder\Truck.cs" />
+    <Compile Include="Behavioral\Commnad\ComplexCommand.cs" />
+    <Compile Include="Behavioral\Commnad\ICommand.cs" />
+    <Compile Include="Behavioral\Commnad\Invoker.cs" />
+    <Compile Include="Behavioral\Commnad\CommandProgram.cs" />
+    <Compile Include="Creational\Mediator\IMediator.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Singleton\SingletonProgram.cs" />
+    <Compile Include="Creational\Singleton\SingletonProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Commnad\Receiver.cs" />
-    <Compile Include="Commnad\SimpleCommand.cs" />
-    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="Behavioral\Commnad\Receiver.cs" />
+    <Compile Include="Behavioral\Commnad\SimpleCommand.cs" />
+    <Compile Include="Creational\Singleton\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,6 +94,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
