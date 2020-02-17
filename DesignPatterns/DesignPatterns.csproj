@@ -72,7 +72,17 @@
     <Compile Include="Behavioral\Commnad\ICommand.cs" />
     <Compile Include="Behavioral\Commnad\Invoker.cs" />
     <Compile Include="Behavioral\Commnad\CommandProgram.cs" />
+    <Compile Include="Creational\Mediator\Button.cs" />
+    <Compile Include="Creational\Mediator\Component.cs" />
+    <Compile Include="Creational\Mediator\Events.cs" />
     <Compile Include="Creational\Mediator\IMediator.cs" />
+    <Compile Include="Creational\Mediator\MediatorProgram.cs" />
+    <Compile Include="Creational\Mediator\TextBox.cs" />
+    <Compile Include="Creational\Prototype\Camera.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
+    <Compile Include="Creational\Prototype\PrototypeProgram.cs" />
+    <Compile Include="Creational\Prototype\RAM.cs" />
+    <Compile Include="Creational\Prototype\Screen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Creational\Singleton\SingletonProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

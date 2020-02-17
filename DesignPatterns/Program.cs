@@ -1,5 +1,6 @@
 ﻿using DesignPatterns;
 using DesignPatterns.Creational.Mediator;
+using DesignPatterns.Creational.Prototype;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,8 @@ namespace DesignPatterns
         {
             args = new string[10];
             //BuilderProgram.MainMethod(args);
-            MediatorProgram.MediatorMain(args);
+            //MediatorProgram.MediatorMain(args);
+            PrototypeProgram.PrototypeMain(args);
         }
     }
 }
